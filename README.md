@@ -67,8 +67,7 @@ QuickStay-FullStack/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/dhaval4133/QuickStay-FullStack.git
-   cd QuickStay-FullStack
+   git clone https://github.com/dhaval4133/Hotel-Booking.git
    ```
 
 2. **Install backend dependencies**
