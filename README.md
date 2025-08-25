@@ -79,10 +79,27 @@ QuickStay-FullStack/
 3. **Set up environment variables**
    Create a `.env` file in the server directory:
    ```env
-   PORT=5000
-   MONGODB_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret_key
-   JWT_EXPIRE=7d
+  # MongoDB
+MONGODB_URI=#------- stripe webhook secret -------#
+
+# Cloudinary
+CLOUDINARY_CLOUD_NAME=#-------CLOUDINARY_CLOUD_NAME  -------#
+CLOUDINARY_API_KEY=#------- CLOUDINARY_API_KEY -------#
+CLOUDINARY_API_SECRET=#------- CLOUDINARY_API_SECRET -------#
+
+# Clerk
+CLERK_PUBLISHABLE_KEY=#------- CLERK_PUBLISHABLE_KE -------#
+CLERK_SECRET_KEY=#------- CLERK_SECRET_KEYt -------#
+CLERK_WEBHOOK_SECRET=#------- CLERK_WEBHOOK_SECRET -------#
+# Stripe
+STRIPE_PUBLISHABLE_KEY=#------- STRIPE_PUBLISHABLE_KEY -------#
+STRIPE_SECRET_KEY=#------- STRIPE_SECRET_KEY= -------#
+STRIPE_WEBHOOK_SECRET=#------- STRIPE_WEBHOOK_SECRET -------#
+
+# NodeMailer SMTP
+SENDER_EMAIL=#------- SENDER_EMAIL -------#
+SMTP_USER=#------- SMTP_USER -------#
+SMTP_PASS=#------- SMTP_PASS -------#
    ```
 
 4. **Start the development server**
