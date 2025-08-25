@@ -79,27 +79,23 @@ QuickStay-FullStack/
 3. **Set up environment variables**
    Create a `.env` file in the server directory:
    ```env
-  # MongoDB
-MONGODB_URI=#------- stripe webhook secret -------#
+   MONGODB_URI=------- MONGODB_URI -------
 
-# Cloudinary
-CLOUDINARY_CLOUD_NAME=#-------CLOUDINARY_CLOUD_NAME  -------#
-CLOUDINARY_API_KEY=#------- CLOUDINARY_API_KEY -------#
-CLOUDINARY_API_SECRET=#------- CLOUDINARY_API_SECRET -------#
+   CLOUDINARY_CLOUD_NAME=-------CLOUDINARY_CLOUD_NAME  -------
+   CLOUDINARY_API_KEY=------- CLOUDINARY_API_KEY -------
+   CLOUDINARY_API_SECRET=------- CLOUDINARY_API_SECRET -------
+   
+   CLERK_PUBLISHABLE_KEY=------ CLERK_PUBLISHABLE_KE -------
+   CLERK_SECRET_KEY=------- CLERK_SECRET_KEYt -------
+   CLERK_WEBHOOK_SECRET=------- CLERK_WEBHOOK_SECRET -------
 
-# Clerk
-CLERK_PUBLISHABLE_KEY=#------- CLERK_PUBLISHABLE_KE -------#
-CLERK_SECRET_KEY=#------- CLERK_SECRET_KEYt -------#
-CLERK_WEBHOOK_SECRET=#------- CLERK_WEBHOOK_SECRET -------#
-# Stripe
-STRIPE_PUBLISHABLE_KEY=#------- STRIPE_PUBLISHABLE_KEY -------#
-STRIPE_SECRET_KEY=#------- STRIPE_SECRET_KEY= -------#
-STRIPE_WEBHOOK_SECRET=#------- STRIPE_WEBHOOK_SECRET -------#
+   STRIPE_PUBLISHABLE_KEY=------- STRIPE_PUBLISHABLE_KEY -------
+   STRIPE_SECRET_KEY=------- STRIPE_SECRET_KEY= -------
+   STRIPE_WEBHOOK_SECRET=------- STRIPE_WEBHOOK_SECRET -------
 
-# NodeMailer SMTP
-SENDER_EMAIL=#------- SENDER_EMAIL -------#
-SMTP_USER=#------- SMTP_USER -------#
-SMTP_PASS=#------- SMTP_PASS -------#
+   SENDER_EMAIL=------- SENDER_EMAIL -------
+   SMTP_USER=------- SMTP_USER -------
+   SMTP_PASS=------- SMTP_PASS -------
    ```
 
 4. **Start the development server**
